@@ -7,7 +7,7 @@ This project documents basic Windows security checks to develop practical skills
 **Project type:** Cybersecurity / Endpoint Security  
 **Level:** Beginner  
 **Environment:** Windows computer  
-**Status:** In progress
+**Status:** Completed
 
 ## Objectives
 
@@ -43,9 +43,40 @@ Review the update status and note whether Windows reports any pending updates.
 
 ## Results and Findings
 
-**Status:** Pending practical checks.
+### Check 1: Windows Firewall
 
-Actual results will be added after the checks are performed. No security status or remediation will be claimed without verification.
+**Result:** Windows Security reported that the firewall was on for the Domain, Private, and Public network profiles.
+
+**Finding:** Firewall protection was enabled across the three displayed profiles at the time of inspection.
+
+### Check 2: Virus & Threat Protection
+
+**Result:** Windows Security displayed "No current threats."
+
+**Finding:** No current threats were reported by the Windows Security interface during this check. This does not guarantee that the device is completely free of malware.
+
+### Check 3: Windows Update
+
+**Result:** Windows Update displayed an available Intel Extension driver update with a Download & install option.
+
+**Finding:** A driver update was pending at the time of inspection. Its installation status and any effect on device security have not yet been verified.
+
+## Overall Conclusion
+
+The initial checks showed that Windows Firewall was enabled for all displayed network profiles and Windows Security reported no current threats. Windows Update also showed a pending Intel Extension driver update.
+
+These observations provide a basic snapshot of the computer's security status. They do not constitute a complete security audit.
+
+## Evidence and Learning
+
+This practical exercise developed familiarity with:
+
+- Windows Firewall network profiles
+- Windows Security and threat-status reporting
+- Windows Update and driver updates
+- Recording system security observations accurately
+
+All findings were recorded from the Windows interface during the practical checks.
 
 ## Security Considerations
 
@@ -60,10 +91,7 @@ Actual results will be added after the checks are performed. No security status 
 - Recognize the role of Windows Firewall and Windows Security.
 - Practise documenting system security observations.
 - Develop a repeatable approach to basic security reviews.
-
-## Conclusion
-
-This project provides a foundation for endpoint security assessment and documentation. It will be updated with verified observations and lessons learned from the practical checks.
+  
 
 ## Skills Demonstrated
 
