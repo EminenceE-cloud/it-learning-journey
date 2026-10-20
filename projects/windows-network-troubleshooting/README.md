@@ -144,6 +144,3 @@ When investigating a connectivity issue:
 - Timeouts can have multiple explanations and require careful interpretation.
 - Clear documentation makes troubleshooting easier to review and repeat.
 
-## Conclusion
-
-This case study provides a repeatable starting point for Windows network troubleshooting. It will be updated with real test results, observations, and any verified resolution as practical testing is completed.
