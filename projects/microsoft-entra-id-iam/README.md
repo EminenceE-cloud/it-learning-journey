@@ -2,60 +2,107 @@
 
 ## Project Overview
 
-This project explores identity and access management concepts using the Microsoft Azure portal and Microsoft Entra ID.
+This project documents my practical experience administering user identities and access in a Microsoft Entra ID training-lab environment. My responsibilities include creating student accounts, managing group memberships, and supporting access to selected lab tools.
 
-**Project type:** Cloud Security / Identity and Access Management  
-**Level:** Beginner  
-**Environment:** Microsoft Azure training lab  
-**Status:** In progress
+**Project type:** Cloud Identity and Access Management (IAM)  
+**Environment:** Microsoft Azure / Microsoft Entra ID training lab  
+**Experience context:** Training-lab administration  
+**Status:** Completed
 
-## Objectives
+## Administrative Roles and Access
 
-- Understand the role of Microsoft Entra ID in cloud identity management.
-- Explore users, groups, and identity administration.
-- Understand the principle of least privilege.
-- Document identity management tasks performed in the training environment.
+I have been assigned seven permanent administrative role assignments in the training environment, providing access to selected identity, security, helpdesk, Exchange, and compliance-related administration functions.
 
-## Key Concepts
+### Administrative Roles
 
-- **Identity management:** Managing digital identities and their lifecycle.
-- **User accounts:** Identities used to access organizational resources.
-- **Groups:** Collections of users that can simplify access management.
-- **Role-based access control (RBAC):** Assigning permissions according to defined roles.
-- **Least privilege:** Providing only the access necessary to perform a task.
+- Exchange Recipients Administrator
+- Security Administrator
+- Helpdesk Administrator — 2 assignments
+- User Administrator — 2 assignments
+- Microsoft Purview Workload Content Administrator
 
-## Practical Exercises
+**Total:** 7 permanent role assignments across 5 distinct role types.
 
-The exercises below will be documented as they are completed in the training environment.
+### Additional Access
 
-1. Locate Microsoft Entra ID in the Azure portal.
-2. Explore the Users and Groups sections.
-3. Review available identity properties and administrative roles.
-4. Identify how permissions and access are managed.
-5. Record observations and lessons learned.
+- Assigned one licence
+- Member of four groups
 
-## Results and Findings
+These assignments support my participation in user account administration and selected training-lab administrative activities. The scope of my access is determined by the permissions associated with each role and the lab environment's configuration.
 
-**Status:** Practical exercises pending.
+## User Account Administration
 
-Actual findings will be added after the portal has been explored and the relevant tasks completed.
+I participate in creating and managing student accounts in a shared educational training environment containing approximately 297 user accounts.
 
-## Security Considerations
+The environment supports students joining different training batches over time, including batches dating back approximately three years.
 
-- Use only the authorized training environment.
-- Do not create, modify, or delete accounts unless the lab instructions permit it.
-- Do not change production users, permissions, or administrative roles.
-- Never publish passwords, access tokens, tenant-sensitive information, or personal data.
-- Understand the permissions required before making administrative changes.
+### Responsibilities
+
+- Creating student user accounts in Microsoft Entra ID
+- Supporting account administration for students
+- Adding users to security groups
+- Adding users to distribution groups
+- Supporting access to selected training-lab tools
+
+## Group Management
+
+As part of my administrative activities, I manage group memberships to help organize student accounts and support access requirements.
+
+### Practical Exercise: Security Group Creation
+
+Created a test security group named `IAM-Lab-Test-Group`.
+
+**Configuration:**
+- Group type: Security
+- Membership type: Assigned
+
+**Purpose:** Practised creating and configuring a security group in Microsoft Entra ID.
+
+Security groups can be used to organize users and support access management, depending on how resources and permissions are configured.
+
+## Microsoft Entra ID Concepts Applied
+
+### Identity Lifecycle Management
+
+Understanding how user accounts are created and maintained in a shared training environment.
+
+### Group-Based Administration
+
+Using security and distribution groups to organize accounts and support administrative workflows.
+
+### Role-Based Access Control
+
+Working with assigned administrative roles and understanding how role permissions define the actions an administrator can perform.
+
+### Least Privilege
+
+Recognizing the importance of granting and using only the permissions required for authorized responsibilities.
+
+## Security and Administrative Considerations
+
+- Use administrative permissions only for authorized tasks.
+- Verify account details before creating or modifying users.
+- Review group membership before making access changes.
+- Understand the scope of administrative roles before performing privileged actions.
+- Protect student information and avoid publishing personal data or sensitive lab configuration details.
+
+## Skills Demonstrated
+
+- Microsoft Entra ID administration
+- User account creation and management
+- Security group management
+- Distribution group management
+- Identity and access management fundamentals
+- Administrative role awareness
+- Cloud identity administration
+- Technical documentation
 
 ## Conclusion
 
-This project will document practical learning in cloud identity management, including users, groups, permissions, and least-privilege principles.
+This experience has provided practical exposure to cloud identity administration in an educational training-lab environment. Through user creation, group membership management, and assigned administrative responsibilities, I have developed a stronger understanding of how identities and access are managed within Microsoft Entra ID.
 
-## Skills Developed
+I will continue building on this experience through additional cloud security exercises and documented projects.
 
-- Microsoft Azure portal navigation
-- Microsoft Entra ID fundamentals
-- Identity and access management concepts
-- Cloud security awareness
-- Technical documentation
+---
+
+**Portfolio focus:** Identity and Access Management | Microsoft Entra ID | Cloud Security | User Administration
