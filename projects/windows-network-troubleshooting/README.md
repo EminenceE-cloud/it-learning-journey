@@ -68,9 +68,63 @@ Review the route information and note any hops that time out. A timeout at an in
 
 ## Results and Findings
 
-**Status:** Pending practical testing.
+### Test 1: IP Connectivity
 
-Record the actual command output and findings after running the tests on a Windows computer. Do not assume a command succeeded or that a fault was identified before reviewing the results.
+**Command used:**
+
+```cmd
+ping 8.8.8.8
+```
+
+**Result:** Received replies from the destination.
+
+**Finding:** The computer successfully reached the tested public IP address during the test.
+
+### Test 2: DNS Resolution and Connectivity
+
+**Command used:**
+
+```cmd
+ping google.com
+```
+
+**Result:** The hostname resolved to `172.217.20.78`, and replies were received.
+
+**Finding:** DNS resolution and ICMP connectivity to the resolved destination worked during the test.
+
+### Test 3: Route Tracing
+
+**Command used:**
+
+```cmd
+tracert google.com
+```
+
+**Result:** The trace completed successfully in six hops.
+
+**Observations:**
+- Hop 1 responded at `192.168.0.1`, consistent with the local router.
+- Hops 2–4 used private IP addresses in the `10.x.x.x` range.
+- Hop 5 responded to two of three probes; one probe timed out.
+- Hop 6 reached `172.217.20.78`, the destination shown by the trace.
+
+**Finding:** The destination was reachable. The isolated timeout at hop 5 did not stop the trace, and there was no evidence from this test alone of a complete route failure.
+
+## Overall Conclusion
+
+The three diagnostic tests showed successful connectivity to the tested IP address and hostname, successful hostname resolution, and a completed route trace.
+
+No connectivity fault was identified by these tests. This does not rule out intermittent issues or problems with other network services.
+
+## Evidence and Learning
+
+These tests provided practical experience with Windows Command Prompt and the following networking commands:
+
+- `ipconfig` — inspecting local network configuration
+- `ping` — testing destination connectivity
+- `tracert` — examining the route to a destination
+
+The results were recorded from actual command-line tests on a Windows computer.
 
 ## Troubleshooting Notes
 
