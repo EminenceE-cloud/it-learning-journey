@@ -76,7 +76,6 @@ The following technologies and concepts have been explored through training and 
 
 ### 3. Skills in Development
 
-- PowerShell and command-line administration
 - Cloud security fundamentals
 - Security incident investigation
 - Log analysis and threat detection
